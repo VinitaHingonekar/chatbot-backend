@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Log",
+    "category": "block",
+    "item_type" : "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "material" : [],
+    "description": "Logs are wood blocks used as a primary source for crafting planks and other wooden materials.",
+    "obtained_by": "Chopping trees"
+  },
+  {
+    "name": "Plank",
+    "category": "block",
+    "item_type" : "generic",
+    "variants":  ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "material": ["Logs"],
+    "description": "Planks are common blocks used as building blocks and in crafting recipes.",
+    "obtained_by": "Crafting from logs"
+  },
+  {
+  "name": "Stone",
+  "category": "block",
+  "item_type": "non generic",
+  "material": ["cobblestone"],
+  "description": "Stone is a common solid block used for building and crafting.",
+  "obtained_by": "Smelting cobblestone in a furnace"
+},
+{
+  "name": "Cobblestone",
+  "category": "block",
+  "item_type": "non generic",
+  "material": [],
+  "description": "Cobblestone is a basic block obtained when mining stone without Silk Touch.",
+  "obtained_by": "Mining stone"
+},
+{
+  "name": "Ore",
+  "category": "block",
+  "item_type": "generic",
+  "variants": [ "coal", "iron", "copper"],
+  "material": [],
+  "description": "Ores are blocks that contain valuable resources which can be smelted or mined for materials.",
+  "obtained_by": "Mining ore blocks"
+},
+{
+  "name": "Iron Ingot",
+  "category": "material",
+  "item_type": "non generic",
+  "material": ["iron ore"],
+  "description": "A refined form of iron used for crafting tools, weapons, armor, and utility blocks.",
+  "obtained_by": "Smelting iron ore in a furnace"
+},
+{
+  "name": "Copper Ingot",
+  "category": "material",
+  "item_type": "non generic",
+  "material": ["copper ore"],
+  "description": "A refined metal used for crafting and building blocks.",
+  "obtained_by": "Smelting copper ore in a furnace"
+},
+{
+  "name": "Andesite",
+  "category": "block",
+  "item_type": "non generic",
+  "material": [],
+  "description": "Andesite is a decorative stone-type block found naturally underground.",
+  "obtained_by": "Mining andesite"
+},
+{
+  "name": "Diorite",
+  "category": "block",
+  "item_type": "non generic",
+  "material": [],
+  "description": "Diorite is a decorative stone-type block found naturally underground.",
+  "obtained_by": "Mining diorite"
+},
+{
+  "name": "Gravel",
+  "category": "block",
+  "item_type": "non generic",
+  "material": [],
+  "description": "Gravel is a loose block that can fall due to gravity and may drop flint when mined.",
+  "obtained_by": "Mining gravel"
+},
+  {
+    "name": "Stick",
+    "category": "material",
+    "item_type" : "non generic",
+    "material": ["planks"],
+    "description": "A basic crafting material used for tools and weapons.",
+    "obtained_by": "Crafting from planks"
+  },
+
+  {
+    "name": "Crafting Table",
+    "category": "furniture",
+    "material": ["planks"],
+    "description": "Used to craft most items in the game.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Chest",
+    "category": "furniture",
+    "item_type" : "non generic",
+    "material": ["planks"],
+    "description": "Used to store items.",
+    "obtained_by": "crafting"
+  },
+  {
+    "name": "Coal",
+    "category": "item",
+    "item_type": "non generic",
+    "material": ["coal ore", "charcoal"],
+    "description": "Coal is a common fuel used for smelting and crafting torches.",
+    "obtained_by": "Mining coal ore or smelting logs to make charcoal"
+  },
+  {
+    "name": "Furnace",
+    "category": "utility",
+    "item_type": "non generic",
+    "material": ["cobblestone"],
+    "description": "A Furnace is used to smelt ores and cook food.",
+    "obtained_by": "crafting"
+  },
+  {
+    "name": "Smoker",
+    "category": "utility",
+    "item_type": "non generic",
+    "material": ["furnace", "logs"],
+    "description": "A utility block used to cook food faster than a furnace.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Coal",
+    "category": "material",
+    "item_type": "non generic",
+    "material": ["coal ore"],
+    "description": "A common fuel used for smelting and crafting torches.",
+    "obtained_by": "Mining coal ore or from chests and mobs"
+  },
+  {
+    "name": "Blast Furnace",
+    "category": "utility",
+    "item_type": "non generic",
+    "material": ["iron ingot", "smooth stone", "furnace"],
+    "description": "A utility block used to smelt ores and metal tools/armor faster than a regular furnace.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Campfire",
+    "category": "utility",
+    "item_type": "non generic",
+    "material": ["stick", "log", "coal", "charcoal"],
+    "description": "A block used for cooking food, producing light, and creating smoke signals.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Torch",
+    "category": "utility",
+    "item_type": "non generic",
+    "material": ["stick", "coal", "charcoal"],
+    "description": "A light-emitting block used to illuminate areas and prevent mob spawning.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Ladder",
+    "category": "utility",
+    "item_type": "non generic",
+    "material": ["stick"],
+    "description": "Used to climb vertically between blocks.",
+    "obtained_by": "Crafting"
+  },
+
+
+  {
+    "name": "Door",
+    "category": "block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "iron"],
+    "material": ["planks", "iron ingot"],
+    "description": "A door is used as an entryway that can be opened and closed.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Trapdoor",
+    "category": "block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "material": ["planks"],
+    "description": "A trapdoor is a thin door-like block placed on floors or ceilings.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Iron Trapdoor",
+    "category": "block",
+    "item_type": "non generic",
+    "material": ["iron ingot"],
+    "description": "A iron trapdoor is a thin door-like block placed on floors or ceilings which can be activated using a button or lever.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Boat",
+    "category": "transport",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "bamboo"],
+    "material": ["planks"],
+    "description": "A boat is used to travel across water quickly.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Sign",
+    "category": "utility",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "material": ["planks", "stick"],
+    "description": "A sign is used to display text messages.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Fence",
+    "category": "block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "material": ["planks", "stick"],
+    "description": "A fence is used as a barrier to keep mobs and players enclosed.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Stair",
+    "category": "block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "stone", "cobblestone"],
+    "material": ["planks", "stone", "cobblestone", "bricks"],
+    "description": "Stairs are blocks that allow players to move up and down more easily.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Slab",
+    "category": "block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo","stone", "cobblestone"],
+    "material": ["planks", "stone", "cobblestone", "bricks"],
+    "description": "Slabs are half-height blocks used for decoration and efficient building.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Pressure Plate",
+    "category": "redstone",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "stone", "iron"],
+    "material": ["planks", "stone", "iron ingot", "gold ingot"],
+    "description": "Pressure plate activates redstone when stepped on.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Helmet",
+    "category": "armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron"],
+    "material": ["leather", "iron ingot"],
+    "description": "Helmet protects the player's head and reduces damage.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Chestplate",
+    "category": "armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron"],
+    "material": ["leather", "iron ingot"],
+    "description": "Chestplate protects the player's torso and provides strong defense.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Leggings",
+    "category": "armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron"],
+    "material": ["leather", "iron ingot"],
+    "description": "Leggings protect the player's legs and reduce damage.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Boots",
+    "category": "armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron"],
+    "material": ["leather", "iron ingot"],
+    "description": "Boots protect the player's feet and reduce fall and combat damage.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Sword",
+    "category": "weapon",
+    "item_type": "generic",
+    "variants": ["wooden", "stone", "iron"],
+    "material": ["planks", "cobblestone", "iron ingot", "stick"],
+    "description": "Sword is a melee weapon used to deal damage to mobs and players.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Pickaxe",
+    "category": "tool",
+    "item_type": "generic",
+    "variants": ["wooden", "stone", "iron"],
+    "material": ["planks", "cobblestone", "iron ingot", "stick"],
+    "description": "Pickaxe is used to mine stone, ores, and other hard blocks.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Axe",
+    "category": "tool",
+    "item_type": "generic",
+    "variants": ["wooden", "stone", "iron"],
+    "material": ["planks", "cobblestone", "iron ingot", "stick"],
+    "description": "Axe is used to chop wood and wooden blocks faster.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Shovel",
+    "category": "tool",
+    "item_type": "generic",
+    "variants": ["wooden", "stone", "iron"],
+    "material": ["planks", "cobblestone", "iron ingot", "stick"],
+    "description": "Shovel is used to dig dirt, sand, and gravel faster.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Hoe",
+    "category": "tool",
+    "item_type": "generic",
+    "variants": ["wooden", "stone", "iron"],
+    "material": ["planks", "cobblestone", "iron ingot", "stick"],
+    "description": "How is used to till soil for farming.",
+    "obtained_by": "Crafting"
+  },
+  {
+    "name": "Spear",
+    "category": "weapon",
+    "item_type": "generic",
+    "variants": ["wooden", "stone", "iron"],
+    "material": ["planks", "cobblestone", "iron ingot", "stick"],
+    "description": "Spear is a pointed weapon used for melee or throwing attacks.",
+    "obtained_by": "Crafting"
+  }
+]

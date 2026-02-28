@@ -1,0 +1,539 @@
+[
+  {
+    "name": "Plank",
+    "category": "Material",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "materials": {
+      "{material} log": 1
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open the crafting grid.",
+      "Place 1 {material} log in any slot.",
+      "Collect 4 {material} planks from the result slot."
+    ]
+  },
+    {
+    "name": "Stone",
+    "category": "Material",
+    "item_type": "generic",
+    "variants": [],
+    "materials": {
+      "cobblestone": 1
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open the furnace.",
+      "Place 1 cobblestone in the top slot.",
+      "Add fuel to the bottom slot.",
+      "Wait for it to smelt.",
+      "Collect the stone from the result slot."
+    ]
+  },
+  
+  {
+    "name": "Copper Ingot",
+    "category": "material",
+    "item_type": "nongeneric",
+    "materials": {
+      "Copper Ore": 1
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open the furnace.",
+      "Place 1 copper ore in the top slot.",
+      "Add fuel to the bottom slot.",
+      "Wait for it to smelt.",
+      "Collect the copper ingot from the result slot."
+    ]
+  },
+  {
+    "name": "Iron Ingot",
+    "category": "tool",
+    "item_type": "nongeneric",
+    "materials": {
+      "Iron Ore": 1
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the furnace.",
+      "Place 1 iron ore in the top slot.",
+      "Add fuel to the bottom slot.",
+      "Wait for it to smelt.",
+      "Collect the iron ingot from the result slot."
+    ]
+  },
+  {
+    "name": "Crafting Table",
+    "category": "utility",
+    "item_type": "nongeneric",
+    "materials": {
+      "Wood Planks": 4
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open inventory crafting",
+      "Place 4 wood planks in a square"
+    ]
+  },
+
+  {
+    "name": "Stick",
+    "category": "material",
+    "item_type": "nongeneric",
+    "materials": {
+      "Wood Planks": 2
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open inventory crafting",
+      "Place 2 wood planks vertically"
+    ]
+  },
+
+  {
+    "name": "Chest",
+    "category": "storage",
+    "item_type": "nongeneric",
+    "materials": {
+      "Wood Planks": 8
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open crafting table",
+      "Place 8 planks in all slots except the center"
+    ]
+  },
+
+  {
+    "name": "Furnace",
+    "category": "utility",
+    "item_type": "nongeneric",
+    "materials": {
+      "Cobblestone": 8
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open crafting table",
+      "Place 8 cobblestones around the edges"
+    ]
+  },
+  {
+    "name": "Smoker",
+    "category": "Utility",
+    "item_type": "nongeneric",
+    "variants": [],
+    "materials": {
+      "furnace": 1,
+      "log": 4
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 furnace in the center slot.",
+      "Place 1 log above, below, left, and right of the furnace.",
+      "Fill the four side slots around the furnace with logs.",
+      "Collect the smoker from the result slot."
+    ]
+  },
+  {
+    "name": "Blast Furnace",
+    "category": "Utility",
+    "item_type": "nongeneric",
+    "variants": [],
+    "materials": {
+      "iron ingot": 5,
+      "furnace": 1,
+      "smooth stone": 3
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 iron ingots across the top row.",
+      "Place 1 iron ingot on the left and right of the middle row.",
+      "Place 1 furnace in the center slot.",
+      "Place 3 smooth stones across the bottom row.",
+      "Collect the blast furnace from the result slot."
+    ]
+  },
+
+  {
+    "name": "Shield",
+    "category": "defense",
+    "item_type": "nongeneric",
+    "materials": {
+      "Wood Planks": 6,
+      "Iron Ingot": 1
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 iron ingot in the top-middle slot.",
+      "Place 3 planks across the middle row.",
+      "Place 2 planks in the bottom-left and bottom-right slots.",
+      "Place 1 planks in the bottom-middle slot."
+    ]
+  },
+  {
+    "name": "Campfire",
+    "category": "Utility",
+    "item_type": "generic",
+    "variants": [],
+    "materials": {
+      "stick": 3,
+      "coal": 1,
+      "log": 3
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 sticks across the top row.",
+      "Place 1 coal in the center slot.",
+      "Place 3 logs across the bottom row.",
+      "Collect the campfire from the result slot."
+    ]
+  },
+  {
+    "name": "Torch",
+    "category": "Utility",
+    "item_type": "generic",
+    "variants": [],
+    "materials": {
+      "coal": 1,
+      "stick": 1
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open the crafting grid.",
+      "Place 1 coal in the center slot.",
+      "Place 1 stick in the bottom-middle slot.",
+      "Collect 4 torches from the result slot."
+    ]
+  },
+  {
+    "name": "Ladder",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": [],
+    "materials": {
+      "stick": 7
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 sticks vertically on the left column.",
+      "Place 3 sticks vertically on the right column.",
+      "Place 1 stick in the center slot.",
+      "Collect 3 ladders from the result slot."
+    ]
+  },
+
+
+  {
+    "name": "Stair",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "stone", "cobblestone"],
+    "materials": {
+      "{material}": 6
+    },
+    "crafting_table": true,
+    "steps": [
+    "Open the crafting table.",
+    "Place 3 {material} in the bottom row.",
+    "Place 2 {material} in the middle row on the left side.",
+    "Place 1 {material} in the top-left slot.",
+    "Collect 4 stairs from the result slot."
+    ]
+  },
+  {
+    "name": "Door",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "iron"],
+    "materials": {
+      "{material}": 6
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} in the left column.",
+      "Place 3 {material} in the middle column.",
+      "Collect 3 doors from the result slot."
+    ]
+  },
+  {
+    "name": "Trapdoor",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "iron"],
+    "materials": {
+      "{material}": 6
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} in the top row.",
+      "Place 3 {material} in the middle row.",
+      "Collect 2 trapdoors from the result slot."
+    ]
+  },
+  {
+    "name": "Boat",
+    "category": "Item",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "bamboo"],
+    "materials": {
+      "{material}": 5
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 {material} in the bottom-middle slot.",
+      "Place 2 {material} in the bottom-left and bottom-right slots.",
+      "Place 2 {material} in the middle-left and middle-right slots.",
+      "Collect the boat from the result slot."
+    ]
+  },
+  {
+    "name": "Sign",
+    "category": "Item",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "materials": {
+      "{material}": 6,
+      "stick": 1
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} in the top row.",
+      "Place 3 {material} in the middle row.",
+      "Place 1 stick in the bottom-middle slot.",
+      "Collect 3 signs from the result slot."
+    ]
+  },
+  {
+    "name": "Fence",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo"],
+    "materials": {
+      "{material}": 4,
+      "stick": 2
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 2 {material} in the left and right slots of the middle row.",
+      "Place 2 sticks in the center slots of the top and middle rows.",
+      "Collect 3 fences from the result slot."
+    ]
+  },
+  {
+    "name": "Slab",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "stone", "cobblestone"],
+    "materials": {
+      "{material}": 3
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open the crafting grid.",
+      "Place 3 {material} in a horizontal row.",
+      "Collect 6 slabs from the result slot."
+    ]
+  },
+  {
+    "name": "Pressure Plate",
+    "category": "Block",
+    "item_type": "generic",
+    "variants": ["oak", "spruce", "birch", "jungle", "acacia", "dark oak", "mangrove", "cherry", "crimson", "warped", "bamboo", "stone", "cobblestone"],
+    "materials": {
+      "{material}": 2
+    },
+    "crafting_table": false,
+    "steps": [
+      "Open the crafting grid.",
+      "Place 2 {material} side by side in a horizontal row.",
+      "Collect the pressure plate from the result slot."
+    ]
+  },
+
+  {
+    "name": "Boots",
+    "category": "Armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 4
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 {material} in the left and right slots of the middle row.",
+      "Place 1 {material} in the left and right slots of the bottom row.",
+      "Collect the boots from the result slot."
+    ]
+  },
+  {
+    "name": "Leggings",
+    "category": "Armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 7
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} in the top row.",
+      "Place 1 {material} in the left and right slots of the middle row.",
+      "Place 1 {material} in the left and right slots of the bottom row.",
+      "Collect the leggings from the result slot."
+    ]
+  },
+  {
+    "name": "Chestplate",
+    "category": "Armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 8
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} in the top row.",
+      "Place 1 {material} in the left and right slots of the middle row.",
+      "Place 3 {material} in the bottom row.",
+      "Collect the chestplate from the result slot."
+    ]
+  },
+  {
+    "name": "Helmet",
+    "category": "Armor",
+    "item_type": "generic",
+    "variants": ["leather", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 5
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} in the top row.",
+      "Place 1 {material} in the top-left and 1 {material} in the top-right of the middle row.",
+      "Collect the helmet from the result slot."
+    ]
+  },
+  {
+    "name": "Sword",
+    "category": "Weapon",
+    "item_type": "generic",
+    "variants": ["wood", "stone", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 2,
+      "stick": 1
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 {material} in the top-middle slot.",
+      "Place 1 {material} in the center slot.",
+      "Place 1 stick in the bottom-middle slot.",
+      "Collect the sword from the result slot."
+    ]
+  },
+  {
+    "name": "Pickaxe",
+    "category": "Tool",
+    "item_type": "generic",
+    "variants": ["wood", "stone", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 3,
+      "stick": 2
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 3 {material} across the top row.",
+      "Place 1 stick in the center slot.",
+      "Place 1 stick in the bottom-middle slot.",
+      "Collect the pickaxe from the result slot."
+    ]
+  },
+  {
+    "name": "Axe",
+    "category": "Tool",
+    "item_type": "generic",
+    "variants": ["wood", "stone", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 3,
+      "stick": 2
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 2 {material} in the top-left and top-middle slots.",
+      "Place 1 {material} in the middle-left slot.",
+      "Place 1 stick in the center and bottom-middle slots.",
+      "Collect the axe from the result slot."
+    ]
+  },
+  {
+    "name": "Shovel",
+    "category": "Tool",
+    "item_type": "generic",
+    "variants": ["wood", "stone", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 1,
+      "stick": 2
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 {material} in the top-middle slot.",
+      "Place 1 stick in the center slot.",
+      "Place 1 stick in the bottom-middle slot.",
+      "Collect the shovel from the result slot."
+    ]
+  },
+  {
+    "name": "Hoe",
+    "category": "Tool",
+    "item_type": "generic",
+    "variants": ["wood", "stone", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 2,
+      "stick": 2
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 2 {material} in the top-left and top-middle slots.",
+      "Place 1 stick in the center slot.",
+      "Place 1 stick in the bottom-middle slot.",
+      "Collect the hoe from the result slot."
+    ]
+  },
+  {
+    "name": "Spear",
+    "category": "Weapon",
+    "item_type": "generic",
+    "variants": ["wood", "stone", "iron", "gold", "diamond", "netherite"],
+    "materials": {
+      "{material}": 1,
+      "stick": 2
+    },
+    "crafting_table": true,
+    "steps": [
+      "Open the crafting table.",
+      "Place 1 {material} in the top-corner slot.",
+      "Place 1 stick in the center slot.",
+      "Place 1 stick in the opposite bottom-corner slot.",
+      "Collect the spear from the result slot."
+    ]
+  }
+]

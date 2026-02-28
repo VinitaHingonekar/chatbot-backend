@@ -1,0 +1,642 @@
+[
+  {
+    "name": "oak door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A door crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A door crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A door crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A door crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A door crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A door crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A door crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry door",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A door crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A fence crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A fence crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A fence crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A fence crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A fence crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A fence crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A fence crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry fence",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A fence crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A stairs crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A stairs crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A stairs crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A stairs crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A stairs crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A stairs crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A stairs crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry stairs",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A stairs crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A planks crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A planks crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A planks crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A planks crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A planks crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A planks crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A planks crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry planks",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A planks crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A slab crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A slab crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A slab crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A slab crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A slab crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A slab crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A slab crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry slab",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A slab crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A button crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A button crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A button crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A button crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A button crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A button crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A button crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry button",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A button crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A pressure plate crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A pressure plate crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A pressure plate crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A pressure plate crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A pressure plate crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A pressure plate crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A pressure plate crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry pressure plate",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A pressure plate crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A trapdoor crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A trapdoor crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A trapdoor crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A trapdoor crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A trapdoor crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A trapdoor crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A trapdoor crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry trapdoor",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A trapdoor crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A sign crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A sign crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A sign crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A sign crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A sign crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A sign crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A sign crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry sign",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A sign crafted from cherry wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "oak boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "oak",
+    "description": "A boat crafted from oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "spruce boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "spruce",
+    "description": "A boat crafted from spruce wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "birch boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "birch",
+    "description": "A boat crafted from birch wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "jungle boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "jungle",
+    "description": "A boat crafted from jungle wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "acacia boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "acacia",
+    "description": "A boat crafted from acacia wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "dark oak boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "dark oak",
+    "description": "A boat crafted from dark oak wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "mangrove boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "mangrove",
+    "description": "A boat crafted from mangrove wood.",
+    "obtained by": "Crafting"
+  },
+  {
+    "name": "cherry boat",
+    "category": "block",
+    "material": ["wood"],
+    "wood_type": "cherry",
+    "description": "A boat crafted from cherry wood.",
+    "obtained by": "Crafting"
+  }
+]
