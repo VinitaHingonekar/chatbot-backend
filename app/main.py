@@ -7,6 +7,18 @@ from pathlib import Path
 import difflib
 
 import nltk
+
+import os
+
+nltk_data_path = "/opt/render/nltk_data"
+os.makedirs(nltk_data_path, exist_ok=True)
+
+nltk.download("stopwords", download_dir=nltk_data_path)
+nltk.download("punkt", download_dir=nltk_data_path)
+nltk.download("wordnet", download_dir=nltk_data_path)
+
+nltk.data.path.append(nltk_data_path)
+
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -375,5 +387,6 @@ async def submit_data(user_input: UserInput):
 # UI
 # bot is typing
 # put the suggessions on buttons easy to send data ?
+
 
 
