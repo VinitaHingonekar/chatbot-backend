@@ -16,6 +16,8 @@ os.makedirs(nltk_data_path, exist_ok=True)
 nltk.download("stopwords", download_dir=nltk_data_path)
 nltk.download("punkt", download_dir=nltk_data_path)
 nltk.download("wordnet", download_dir=nltk_data_path)
+nltk.download("averaged_perceptron_tagger", download_dir=nltk_data_path)
+nltk.download("averaged_perceptron_tagger_eng", download_dir=nltk_data_path)
 
 nltk.data.path.append(nltk_data_path)
 
@@ -387,6 +389,7 @@ async def submit_data(user_input: UserInput):
 # UI
 # bot is typing
 # put the suggessions on buttons easy to send data ?
+
 
 
 
