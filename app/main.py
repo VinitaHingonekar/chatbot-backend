@@ -19,7 +19,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -375,3 +375,4 @@ async def submit_data(user_input: UserInput):
 # UI
 # bot is typing
 # put the suggessions on buttons easy to send data ?
+
