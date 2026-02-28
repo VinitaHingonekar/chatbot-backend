@@ -1,4 +1,5 @@
 fastapi
 redis
 types-redis
+nltk
 uvicorn
