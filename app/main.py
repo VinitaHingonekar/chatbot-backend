@@ -297,7 +297,7 @@ def get_information_data(item_data):
 class UserInput(BaseModel):
     message: str
 
-@app.post("/submit_data/")    
+@app.post("/submit_data")    
 async def submit_data(user_input: UserInput):
     global awaiting_response, pending_corrected_input, skip_spell_check
     user_message = user_input.message.lower().strip()
@@ -387,6 +387,7 @@ async def submit_data(user_input: UserInput):
 # UI
 # bot is typing
 # put the suggessions on buttons easy to send data ?
+
 
 
 
